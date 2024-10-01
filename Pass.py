@@ -1,4 +1,4 @@
-def Continue(n):
+def Pass(n):
     i=1
     while(i):
         if(i==5):
@@ -9,4 +9,4 @@ def Continue(n):
         i+=1
 
 n=int(input("Enter a value: "))
-Continue(n)
+Pass(n)
