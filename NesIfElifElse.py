@@ -6,3 +6,5 @@ if(n>0):
         print("Rohit")
     else:
         print("Kholi")
+else:
+    print("Enter valid number")
