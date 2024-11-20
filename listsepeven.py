@@ -1,4 +1,7 @@
 def oddeven(i):
+    if(i<0):
+        print("Enter positive number")
+    else:
         if(i%2==0):
             return False
         
