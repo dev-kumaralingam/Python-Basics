@@ -18,11 +18,11 @@ def main():
             else:
                 print("The dictionary is empty.")
 
-        # elif choice == '2':
-        #     key = input("Enter the key: ")
-        #     value = input("Enter the value: ")
-        #     my_dict[key] = value
-        #     print(f"Added ({key}: {value}) to the dictionary.")
+        elif choice == '2':
+            key = input("Enter the key: ")
+            value = input("Enter the value: ")
+            my_dict[key] = value
+            print(f"Added ({key}: {value}) to the dictionary.")
 
         # elif choice == '3':
         #     key = input("Enter the key to modify: ")
