@@ -24,14 +24,14 @@ def main():
             my_dict[key] = value
             print(f"Added ({key}: {value}) to the dictionary.")
 
-        # elif choice == '3':
-        #     key = input("Enter the key to modify: ")
-        #     if key in my_dict:
-        #         new_value = input("Enter the new value: ")
-        #         my_dict[key] = new_value
-        #         print(f"Updated {key} to {new_value}.")
-        #     else:
-        #         print(f"Key '{key}' not found in the dictionary.")
+        elif choice == '3':
+            key = input("Enter the key to modify: ")
+            if key in my_dict:
+                new_value = input("Enter the new value: ")
+                my_dict[key] = new_value
+                print(f"Updated {key} to {new_value}.")
+            else:
+                print(f"Key '{key}' not found in the dictionary.")
 
         # elif choice == '4':
         #     key = input("Enter the key to delete: ")
