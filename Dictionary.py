@@ -33,13 +33,13 @@ def main():
             else:
                 print(f"Key '{key}' not found in the dictionary.")
 
-        # elif choice == '4':
-        #     key = input("Enter the key to delete: ")
-        #     if key in my_dict:
-        #         del my_dict[key]
-        #         print(f"Deleted key '{key}' from the dictionary.")
-        #     else:
-        #         print(f"Key '{key}' not found in the dictionary.")
+        elif choice == '4':
+            key = input("Enter the key to delete: ")
+            if key in my_dict:
+                del my_dict[key]
+                print(f"Deleted key '{key}' from the dictionary.")
+            else:
+                print(f"Key '{key}' not found in the dictionary.")
 
         # elif choice == '5':
         #     print("Exiting the program. Goodbye!")
