@@ -41,9 +41,9 @@ def main():
             else:
                 print(f"Key '{key}' not found in the dictionary.")
 
-        # elif choice == '5':
-        #     print("Exiting the program. Goodbye!")
-        #     break
+        elif choice == '5':
+            print("Exiting the program. Goodbye!")
+            break
 
         else:
             print("Invalid choice! Please try again.")
