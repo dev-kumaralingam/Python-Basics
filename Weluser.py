@@ -1,9 +1,9 @@
 import datetime
 def greetuser():
-    current_time=datetime.time
+    current_time=datetime.datetime.now()
     hour=current_time.hour
-    # if hour<12:
-    #     print("Good morning")
+    if hour<12:
+        print("Good morning")
     # elif hour<18:
     #     print("Good afternoon")
     # else:
