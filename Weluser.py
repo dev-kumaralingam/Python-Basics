@@ -6,8 +6,8 @@ def greetuser():
         print("Good morning")
     elif hour<18:
         print("Good afternoon")
-    # else:
-    #     print("Good evening")
+    else:
+        print("Good evening")
 def welcome(f,l):
     print(f"Welcome to the game, {f}{l}!")
 
