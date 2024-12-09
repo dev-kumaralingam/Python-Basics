@@ -9,9 +9,10 @@ def greetuser():
     else:
         print("Good evening")
 def welcome(f,l):
+    greetuser()
     print(f"Welcome to the game, {f}{l}!")
 
 f=input("Enter a first name: ")
 l=input("Enter a last name: ")
-greetuser()
+
 welcome(f,l)  
