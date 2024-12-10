@@ -11,6 +11,11 @@ def greetuser():
 def welcome(f,l):
     greetuser()
     print(f"Welcome to the game, {f}{l}!")
+    age=int(input("Enter your age: "))
+    if(age>18):
+        print("Eligibility statisfied!")
+    # else:
+    #     print("You can't play this game!")
 
 f=input("Enter a first name: ")
 l=input("Enter a last name: ")
