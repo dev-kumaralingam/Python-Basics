@@ -24,10 +24,10 @@ def roman_to_int(roman):
     return total
 
 
-if __name__ == "__main__":
-    roman_numeral = input("Enter a Roman numeral: ")
-    try:
-        result = roman_to_int(roman_numeral.upper())
-        print(f"The integer value of {roman_numeral} is {result}.")
-    except KeyError:
-        print("Invalid Roman numeral.")
+# if __name__ == "__main__":
+#     roman_numeral = input("Enter a Roman numeral: ")
+#     try:
+#         result = roman_to_int(roman_numeral.upper())
+#         print(f"The integer value of {roman_numeral} is {result}.")
+#     except KeyError:
+#         print("Invalid Roman numeral.")
