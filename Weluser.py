@@ -14,6 +14,12 @@ def welcome(f,l):
     age=int(input("Enter your age: "))
     if(age>18):
         print("Eligibility statisfied!")
+        num=7
+        inp=int(input("Guess a Number(1-10): "))
+        if(num==inp):
+            print("Correct!")
+        # else:
+        #     print("wrong.Try again!")
     else:
         print("You can't play this game!")
 
