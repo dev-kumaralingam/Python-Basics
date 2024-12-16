@@ -18,8 +18,8 @@ def welcome(f,l):
         inp=int(input("Guess a Number(1-10): "))
         if(num==inp):
             print("Correct!")
-        # else:
-        #     print("wrong.Try again!")
+        else:
+            print("wrong.Try again!")
     else:
         print("You can't play this game!")
 
