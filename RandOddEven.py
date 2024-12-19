@@ -13,5 +13,5 @@ print(f"The random number is: {random_number}")
 # Check if the random number is odd or even
 if random_number % 2 == 0:
     print(f"{random_number} is Even.")
-# else:
-#     print(f"{random_number} is Odd.")
+else:
+    print(f"{random_number} is Odd.")
