@@ -1,4 +1,5 @@
 import datetime
+import random
 def greetuser():
     current_time=datetime.datetime.now()
     hour=current_time.hour
@@ -14,7 +15,7 @@ def welcome(f,l):
     age=int(input("Enter your age: "))
     if(age>18):
         print("Eligibility statisfied!")
-        num=7
+        num=random.randint(1,10)
         inp=int(input("Guess a Number(1-10): "))
         if(num==inp):
             print("Correct!")
